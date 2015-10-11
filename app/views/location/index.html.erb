@@ -1,0 +1,8 @@
+<h1>Location#index</h1>
+<p>Find me in app/views/location/index.html.erb</p>
+
+<p>Hello, lets find something to eat near you :) </p>
+  <%= form_tag("events/loc", method: "get") do %>
+  <%= label_tag(:text, "find my location   ") %>
+  <%= submit_tag("Go") %>
+<% end %>
